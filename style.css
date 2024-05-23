@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.row11-col{
+    background-color: #F4DAD3;   
+}
+
+.row12-col{
+    background-color: #9DC0CB;   
+}
+
+.row13-col{
+    background-color: #7691A1;   
+}
+
+/* row 2 */
+.row21-col{
+    background-color: #EDBDBE;   
+}
+
+.row22-col{
+    background-color: #FACDBC;   
+}
+
+.row23-col{
+    background-color: #F3D7CC;       
+}
+
+
+/* Row 3 */
+.row31-col{
+    background-color: #E1DEE2;   
+}
+
+.row32-col{
+    background-color: #86A1B3;   
+}
+
+.row33-col{
+    background-color: #CACEDAE4;   
+}
+
+html body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(226, 226, 220, 0.4);
+}
+
+.nav-bar-color{
+    background-color: #506A67!important;
+}
+
+
+.nav-link{
+    color: #c2dad9 !important;
+}
+
+.nav-link:hover{
+    color: #FFFFFF !important;
+}
+
+.nav-highlight, .navbar-brand{
+    color: #FFFFFF !important;
+    font-weight: 500;
+}
+
+.navbar-toggler{
+    filter: invert(100%);
+}
+
+h1{
+    font-size: 1.802em;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 1.602em;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.424em;
+    font-weight: 600;
+}
+
+
+h4{
+    font-size:1.266em;
+}
+
+
+.footer-tb{
+    text-align: center;
+}
+
+.back{
+    font-family: 'Poppins', sans-serif;
+    color:#7691A1;
+}
+
+
+.btn-primary{
+    background-color: #fa7f50;
+    border-color: #fa7f50;
+}
+
+.btn-primary:hover{
+    background-color: #00805b;
+}
+
+.carousel-padding{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    background-color: #506A67;
+}
