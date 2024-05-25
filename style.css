@@ -1,44 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.row11-col{
-    background-color: #F4DAD3;   
-}
 
-.row12-col{
-    background-color: #9DC0CB;   
-}
-
-.row13-col{
-    background-color: #7691A1;   
-}
-
-/* row 2 */
-.row21-col{
-    background-color: #EDBDBE;   
-}
-
-.row22-col{
-    background-color: #FACDBC;   
-}
-
-.row23-col{
-    background-color: #F3D7CC;       
-}
-
-
-/* Row 3 */
-.row31-col{
-    background-color: #E1DEE2;   
-}
-
-.row32-col{
-    background-color: #86A1B3;   
-}
-
-.row33-col{
-    background-color: #CACEDAE4;   
-}
 
 html body{
     font-family: 'Poppins', sans-serif;
@@ -115,4 +78,49 @@ h4{
 .carousel-control-next-icon, 
 .carousel-control-prev-icon {
     background-color: #506A67;
+}
+
+.button{
+    background-color: white;
+    color: #506A67;
+    font-size: 16px;
+    border-color: #506A67;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.button:hover{
+    background-color: #c2dad9;
+    color: #00805b;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-img-top{
+    height: 310px;
+    background-color: white;
+    padding: 2% 2% 2% 2%;
+    margin: 0px auto;
+    border: 1px solid #7691A1;
+}
+
+.cells{
+    padding: 15px;
+}
+
+.image{
+    height: 450px;
+}
+
+.part{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screenshot{
+    width: 600px;
 }
