@@ -99,7 +99,7 @@ https://templatemo.com/tm-538-digital-trend
     text-transform: uppercase;
   }
 
-  p {
+  p, ol, ul {
     color: var(--p-color);
     font-size: var(--p-font-size);
     line-height: 1.5em;
@@ -107,8 +107,8 @@ https://templatemo.com/tm-538-digital-trend
 
   b, 
   strong {
-    letter-spacing: 0;
-    color: var(--secondary-color);
+    color: var(--dark-color);
+    font-weight: 900; 
   }
 
 
@@ -145,7 +145,7 @@ https://templatemo.com/tm-538-digital-trend
     background: transparent;
     border: 2px solid var(--dark-color);
     border-radius: var(--border-radius-large);
-    padding: 12px 26px 14px 26px;
+    padding: 10px 25px 12px 25px;
     color: var(--dark-color);
     font-family: var(--title-font-family);
     font-size: var(--p-font-size);
@@ -456,69 +456,42 @@ https://templatemo.com/tm-538-digital-trend
     margin-right: 1em;
   }
 
+
+.lrg-img {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+  }
+
+  
   /*---------------------------------------
-      PROGRESS BAR           
+      SCROLL BUTTON          
   -----------------------------------------*/
 
-  .progress {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f6f7fb;
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
   }
-  .progress-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    max-width: 400px;
-    width: 100%;
-  }
-  .progress-bar .steps {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-  }
-  .steps .circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
-    color: #999;
-    font-size: 22px;
-    font-weight: 500;
-    border-radius: 50%;
-    background: #fff;
-    border: 4px solid #e0e0e0;
-    transition: all 200ms ease;
-    transition-delay: 0s;
-  }
-  .steps .circle.active {
-    transition-delay: 100ms;
-    border-color: #4070f4;
-    color: #4070f4;
-  }
-  .steps .progress-bar {
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    background: #e0e0e0;
-    z-index: -1;
-  }
-  .progress-bar .indicator {
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    background: #4070f4;
-    transition: all 300ms ease;
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
   }
 
 
 
+
+ 
 
 
 
